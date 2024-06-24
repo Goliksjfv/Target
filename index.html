@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
+    <script src="js/shot.js"></script>
+</head>
+<body>
+    <h1>
+
+    </h1>
+    <div class="all">
+        <form name="myForm">
+            <input type="radio" name="languages" checked="checked" id = "random" value="random" /><span>Случайные выстрелы</span>
+            <input type="radio" name="languages" id = "xy" value="xy" /><span>Выстрел по координатам</span>
+        </form>
+        <div>
+            <input id="n" placeholder="Количество выстрелов">
+            <input id="radius" placeholder="Радиус мишени">
+            <input id="x" placeholder="x">
+            <input id="y" placeholder="y">
+        </div>
+        <button id="pressMe">Выстрелить</button>
+        <button id="clean">Чистюля</button>
+        <span id="result"></span>
+        <span id="acc"></span>
+    </div>
+</body>
+</html>
